@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Corbel, Arial;
+}
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+  /*overflow: hidden;
+    padding: 1%
+  */
+}
+
+/*.main-container {
+    /*! display: flex; */
+    /*! flex-direction: column; */
+    /*! height: 100%;       
+    }
+
+.header{
+/*  max-width: auto;
+    margin: auto;
+    height: 16%;
+    margin-top:-50px;
+    margin-bottom: 50px;
+}
+
+.domenico{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:3.4rem;
+    color:#58595b;
+    font-style:inherit;
+    margin-top:.4rem;
+    border-bottom: solid 2px ;
+    /*line-height:44px;
+} 
+
+.menu{
+    text-align:right;
+    height: 1.6rem;
+    line-height: 1.4rem;
+    /*font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:16px;
+    font-color:#58595b;
+    font-style:italic;
+    font-weight:bold;
+    text-decoration:none;
+    margin-bottom: .6rem;
+}
+
+.menu a {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size: 1.3rem;
+    color:#58595b;
+    font-style:italic;
+    font-weight:bold;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    /*font-size: 1.4rem;
+    color: #FE9A37;
+    /* background-color: #2ecc71;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+.menu #a-menu{
+    color: #911010;
+    }
+
+.menu #a-menu:hover{
+    /*font-size: 1.4rem;
+    color: #FE9A37 ;
+    /* background-color: #2ecc71;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+a:link, a:visited {
+    color:#58595b;
+    text-decoration: none;
+}*/
+
+
+.carousel-container {
+    position: relative;
+    width: 100wv;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+/*    background-size: cover;
+    background-position: center center;*/
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel-slide.active {
+    opacity: 1;
+}
+
+/* Force the picture and image tags to behave like background-cover */
+.carousel-slide picture,
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+
+/*
+@media screen and (max-width:700px),
+       screen and (max-height: 320px)
+        {
+ 
+.carousel-slide.active{
+  visibility: hidden; /* Nasconde il testo originale 
+}
+
+.carousel-slide.active:after {
+      visibility: visible; /* Rende visibile il nuovo contenuto 
+      background-image: url('./media/1_in-limine-vert.jpg') !important;
+        background-image: url('./media/immagini/Domenico-12_4.jpg');
+        background-image: url('./media/immagini/Domenico-7_2.jpg');
+        background-image: url('./media/immagini/Domenico-7_4.jpg');
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+  
+}
+
+*/  
