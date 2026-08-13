@@ -396,7 +396,7 @@
 
 .containerPUBBLICAZIONI{
     position: static;
-    padding: 1%;
+    padding: 1rem;
     width: 100%;
     height: auto;
     margin-left: 13.2rem;
@@ -404,7 +404,7 @@
 
 .containerINFO{
     position: static;
-    padding: 1%;
+    padding: 1rem;
     width: 100%;
     height: auto;
     margin-left: 25.6rem;
@@ -412,7 +412,7 @@
 
 .containerVIDEO{
     position: static;
-    padding: 1%;
+    padding: 1rem;
     width: 100%;
     height: auto;
     margin-left: 6.4rem;
@@ -420,7 +420,7 @@
 
 .containerSCRITTI{
     position: static;
-    padding: 1%;
+    padding: 1rem;
     width: 100%;
     height: auto;
   /*margin-left: 6.4rem;*/
