@@ -405,13 +405,13 @@
 .containerINFO{
     position: static;
     padding: 1rem;
-    width: 100%;
+/*  width: 100%;*/
     height: auto;
-    margin-left: 26rem;
+    margin-left: 27.4rem;
 }
 
 .containerVIDEO{
-    position: static;
+    position: absolute;
     padding: 1rem;
     width: 100%;
     height: auto;
