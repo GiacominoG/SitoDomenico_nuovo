@@ -44,6 +44,13 @@
          width:100%;
 }
 
+/*    .scrollable{
+        display: block;
+        height: 1000px;
+        overflow: auto;
+        border: solid .4rem grey;
+    }*/
+
     .vert {
          width: 67%;
     }
@@ -293,7 +300,7 @@
     .main-container {
         display: flex;
         flex-direction: column;
-        height: 100%;        
+        /*height: 100vh;        */
     }
 
     .main-container2 {
@@ -396,34 +403,33 @@
 
 .containerPUBBLICAZIONI{
     position: static;
-    padding: 1rem;
-    width: 100%;
+    padding: .5rem;
+    /*width: 100%;*/
     height: auto;
-    margin-left: 12.74rem;
+    margin-left: 13.2rem;
 }
 
 .containerINFO{
     position: static;
-    padding: 1rem;
-/*  width: 100%;*/
+    padding: .5rem
+    /*width: 100%;*/
     height: auto;
-    margin-left: 25.4rem;
+    margin-left: 26rem;
 }
 
 .containerVIDEO{
-    position: absolute;
-    padding: 1rem;
-    width: 100%;
+    position: static;
+    padding: .5em;
+    /*width: 100%;*/
     height: auto;
-    margin-left: 6.2rem;
+    margin-left: 6.4rem;
 }
 
 .containerSCRITTI{
     position: static;
-    padding: 1rem;
-    width: 100%;
+    padding: .5rem;
+    /*width: 100%;*/
     height: auto;
-  /*margin-left: 6.4rem;*/
 }
 
 
@@ -782,13 +788,13 @@
         */
 }
 
- /* .contenitore_text6{
-          display: flex;
-          height: 5.2rem;
+     .contenitore_text7{
+        /*display: flex;
           flex-basis: 4em;
+          height: 5.2rem;*/
           margin-left: .6rem;
-          width: 100%; (come era)
-}*/
+          /*width: 100%;*/
+}
 
 /*    .contenitore_text6{
         /*display: flex;
@@ -801,7 +807,7 @@
 
     .didascalia{
           margin-top: 0 ;
-          padding: 2%;
+          padding: .6rem;
 /*          font-weight: lighter;*/
 }
 
