@@ -241,7 +241,7 @@
 
 
     #selected{
-        color:#A7A7A7;
+        color:#878787;
         /*margin-left: .9rem;*/
     }
 
@@ -300,14 +300,13 @@
     .main-container {
         display: flex;
         flex-direction: column;
-        height: 100%;
         /*height: 100vh;        */
     }
 
     .main-container2 {
         display: flex;
         flex-direction: column;
-        /*height: 100%;        */
+        height: 100%;
     }
     
     .header{
