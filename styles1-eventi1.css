@@ -89,6 +89,13 @@
         border: solid 2px silver;
     }
 
+    .miniatura-pubblicazioni{
+        max-height: 12rem;
+        width: auto;
+        padding: .2rem;
+        border: solid 2px silver;
+    }    
+
     .miniatura-video {
         width: 16rem;
         padding: .2rem;
@@ -411,7 +418,7 @@
 
 .containerINFO{
     position: static;
-    padding: .5rem;
+    padding: .5rem
     /*width: 100%;*/
     height: auto;
     margin-left: 26rem;
@@ -1088,7 +1095,7 @@
 }
 
     .containerSCRITTI, .containerPUBBLICAZIONI, .containerVIDEO, .containerINFO{
-        margin-left:0rem;
+        margin-left:.4rem;
         margin-bottom: 4rem;
     }
 
@@ -1096,7 +1103,25 @@
         display: block;
     }
 
+    .containerVIDEO .contenitore_text5{
+        margin-left: 0;
+    }
+
     .containerVIDEO .didascalia{
+        margin-top: .8rem;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .containerPUBBLICAZIONI .rows4{
+        display: block;
+    }
+
+    .containerPUBBLICAZIONI .contenitore_text5{
+        margin-left: 0;
+    }
+
+    .containerPUBBLICAZIONI .didascalia{
         margin-top: .8rem;
         margin-left: 0;
         padding: 0;
