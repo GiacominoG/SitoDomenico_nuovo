@@ -409,31 +409,31 @@
 }
 
 .containerPUBBLICAZIONI{
-    position: static;
+    position: absolute;
     padding: .5rem;
     /*width: 100%;*/
     height: auto;
-    margin-left: 13.2rem;
+    left: 13.2rem;
 }
 
 .containerINFO{
-    position: static;
+    position: absolute;
     padding: .5rem
     /*width: 100%;*/
     height: auto;
-    margin-left: 26rem;
+    left: 26rem;
 }
 
 .containerVIDEO{
-    position: static;
+    position: absolute;
     padding: .5em;
     /*width: 100%;*/
     height: auto;
-    margin-left: 6.4rem;
+    left: 6.4rem;
 }
 
 .containerSCRITTI{
-    position: static;
+    position: absolute;
     padding: .5rem;
     /*width: 100%;*/
     height: auto;
@@ -800,6 +800,7 @@
           flex-basis: 4em;
           height: 5.2rem;*/
           margin-left: .6rem;
+          position: relative;
           /*width: 100%;*/
 }
 
@@ -1097,6 +1098,7 @@
     .containerSCRITTI, .containerPUBBLICAZIONI, .containerVIDEO, .containerINFO{
         margin-left:.4rem;
         margin-bottom: 4rem;
+        position: unset;
     }
 
     .containerVIDEO .rows4{
