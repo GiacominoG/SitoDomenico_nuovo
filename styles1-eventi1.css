@@ -91,10 +91,11 @@
 
     .miniatura-pubblicazioni{
         max-height: 12rem;
-     /* width: auto;*/
+        width: auto;
         padding: .2rem;
         border: solid 2px silver;
-    }    
+    }
+
 
     .miniatura-video {
         width: 16rem;
