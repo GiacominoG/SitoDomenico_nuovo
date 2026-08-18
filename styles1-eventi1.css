@@ -84,7 +84,7 @@
     }
 
     .miniatura {
-        max-height: 12rem;
+        width: 7.2rem;
         padding: .2rem;
         border: solid 2px silver;
     }
@@ -225,6 +225,7 @@
 
     .nav_sin{
         /*display: flex;*/
+        position: relative;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
@@ -250,6 +251,24 @@
 
     #selected{
         color:#878787;
+        /*margin-left: .9rem;*/
+    }
+
+    .video{
+        position: absolute;
+        left: 7rem;
+        /*margin-left: .9rem;*/
+    }
+
+    .pubblicazioni{
+        position: absolute;
+        left: 14.2rem;;
+        /*margin-left: .9rem;*/
+    }
+
+    .info{
+        position: absolute;
+        left: 27.4rem;
         /*margin-left: .9rem;*/
     }
 
@@ -419,10 +438,10 @@
 
 .containerINFO{
     position: absolute;
-    padding: .5rem
+    padding: .5rem;
     /*width: 100%;*/
     height: auto;
-    left: 28.4rem;
+    left: 27.4rem;
 }
 
 .containerVIDEO{
@@ -1097,7 +1116,7 @@
 }
 
     .containerSCRITTI, .containerPUBBLICAZIONI, .containerVIDEO, .containerINFO{
-        margin-left:.4rem;
+        /*margin-left:.4rem;*/
         margin-bottom: 4rem;
         position: unset;
     }
@@ -1130,7 +1149,9 @@
         padding: 0;
     }
 
-
+    .video .pubblicazioni .info{
+            position: unset;
+            }
 
     .contenitore_img{
           position: relative;
@@ -1141,11 +1162,13 @@
 
     .nav_sin{
         display: block;
+        position: relative;
         margin-left: .4rem;
     }
 
     .nav_sin a{
         display: block;
+        position: unset;
         font-size: 1.4rem;
         margin-bottom: .2rem;
       /*margin-top: .5rem;*/
